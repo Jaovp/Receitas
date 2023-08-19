@@ -1,0 +1,28 @@
+
+.button button{
+    background-color: #ffffff;
+    margin: 20px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 4px rgba(245, 15, 15, 0.2);
+}
+
+.receitas-salvas{
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.receitas-salvas a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}

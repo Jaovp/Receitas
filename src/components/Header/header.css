@@ -1,0 +1,38 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #80b918;
+}
+
+.logo{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.new{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.salvas{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+
+}
