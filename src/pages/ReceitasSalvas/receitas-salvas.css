@@ -1,6 +1,7 @@
 
-.button button{
-    background-color: #ffffff;
+.excluir{
+    background-color: #d42222;
+    color: #fff;
     margin: 20px;
     font-size: 20px;
     border: 0;
@@ -9,13 +10,14 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.5s;
-    box-shadow: 2px 2px 4px rgba(245, 15, 15, 0.2);
+    box-shadow: 1px 1px 1px rgb(247, 247, 247);
 }
 
 .receitas-salvas{
     margin: 0 auto;
     margin-top: 18px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     max-width: 800px;
     padding: 0 8px;

@@ -16,7 +16,7 @@
     object-fit: cover;
 }
 
-.button button {
+.salvar {
     margin: 12px;
     font-size: 20px;
     border: 0;
@@ -25,5 +25,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.5s;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    background-color: #80b918;
+    color: #fff;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
 }

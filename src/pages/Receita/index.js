@@ -87,8 +87,8 @@ function Receita(){
                 </ul>
                 <h2>Modo de preparo:</h2>
                 <p>{receita.strInstructions}</p>
-                <div className="button">
-                    <button onClick={salvarReceita}>Salvar Receita</button>
+                <div>
+                    <button className="salvar" onClick={salvarReceita}>Salvar Receita</button>
                 </div>
             </div>
 

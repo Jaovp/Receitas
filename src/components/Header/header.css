@@ -10,6 +10,7 @@ header{
 
 .logo{
     text-decoration: none;
+    text-align: center;
     margin-right: 50px;
     margin-left: 50px;
     font-size: 30px;
@@ -20,6 +21,7 @@ header{
 
 .new{
     text-decoration: none;
+    align-items: end;
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
@@ -29,6 +31,7 @@ header{
 
 .salvas{
     text-decoration: none;
+    align-items: end;
     margin: 10px;
     font-size: 20px;
     cursor: pointer;

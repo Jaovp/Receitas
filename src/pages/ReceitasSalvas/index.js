@@ -30,9 +30,9 @@ function ReceitasSalvas() {
                     return(
                         <li key={receita.id}>
                         <span>{receita.title}</span>
-                            <div className="button">
+                            <div>
                             <Link to={`/receita/${receita.idMeal}`}>{receita.strMeal}</Link>
-                            <button onClick={() => excluirReceita(receita.idMeal)}>Excluir</button>
+                            <button className="excluir" onClick={() => excluirReceita(receita.idMeal)}>Excluir</button>
                             </div>
                         </li>
                     )
